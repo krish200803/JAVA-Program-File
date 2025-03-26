@@ -1,9 +1,0 @@
-class Samsung 
-{
-	String brand;
-	String model;
-	int ram;
-	int rom;
-	int noofcam;
-	double price;
-}
