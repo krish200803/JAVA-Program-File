@@ -52,7 +52,8 @@ Student s1 = new Student("Umesh", "COEP", 1234, "BE", "Computer");
 //		not by their references.
 		
 		System.out.println(s3.equals(s4));  // here we have overrided the equals() Method so, attributes of the 
-		                    				// two objects are Same. Therefore the output is TRUE 
+		                    		    // two objects compare by its Customize Original reference . 
+						     //Therefore the output is TRUE 
 		
 		
 		
@@ -73,7 +74,8 @@ Student s1 = new Student("Umesh", "COEP", 1234, "BE", "Computer");
 										  //  therefore the output of  FALSE
 		
 		System.out.println(s5.equals(s6));  // here we have overrided the equals() Method so, attributes of the 
-											// two objects are Same. Therefore the output is TRUE
+						    // two objects compare by its Customize Original reference . 
+		                                    // Therefore the output is TRUE
 		
 		
 		
