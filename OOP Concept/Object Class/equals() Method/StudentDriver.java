@@ -21,7 +21,7 @@ public class StudentDriver {
 		System.out.println(s1);       
 		System.out.println(s2);
 		
-		System.out.println(s1==s2);     // here the equal operetor compare the two object by its reference 
+		System.out.println(s1==s2);     // here the equal operetor compare the two object by its Original reference 
 										//  therefore the output of  FALSE
 		
 		System.out.println(s1.equals(s2)); // here we have overrided but the attributes of the two objects are different. 
@@ -43,14 +43,15 @@ public class StudentDriver {
 //		equals operator(==) as well as equals() method is used to compare the two object by their references 
 //		not by their Attributes.
 		
-		System.out.println(s3==s4);     // here the equal operetor compare the two object by its reference 
+		System.out.println(s3==s4);     // here the equal operetor compare the two object by its Original reference 
 										//  therefore the output of  FALSE
 		
 //		But we can override the equals() method of Object class that will compare the two Objects by their attributes
 //		not by their references.
 		
 		System.out.println(s3.equals(s4));  // here we have overrided the equals() Method so, attributes of the 
-		                    				// two objects are Same. Therefore the output is TRUE 
+		                    		// two objects compare by its Customize Original reference .
+						//Therefore the output is TRUE 
 											
 
 	}
