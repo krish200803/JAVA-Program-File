@@ -1,6 +1,8 @@
 
 //	Write a Program to Search the Element in the Array Using Binary Search Algorithm
 
+// 			Time Complexity of Binary Search : O (log n)
+
 package ARRAYS.Seraching_Algorithm;
 
 import java.util.Arrays;
