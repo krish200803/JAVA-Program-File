@@ -26,7 +26,7 @@ public class Sorting_Merge_Of_two_Array_Using_2Pointer {
 		
 		while(i<a.length && j<b.length)
 		{
-			if(a[i] < b[j])
+			if(a[i] <= b[j])
 			{
 				ans[k] = a[i];
 				k++;
