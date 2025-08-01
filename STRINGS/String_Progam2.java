@@ -1,4 +1,4 @@
-package STRINGS;
+package STRINGS; 
 
 public class String_Progam2 {
 
