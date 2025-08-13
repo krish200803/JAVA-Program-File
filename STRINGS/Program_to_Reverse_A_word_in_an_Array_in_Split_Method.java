@@ -1,6 +1,6 @@
 
 
-// Split by char 'A' =>  "I Love Bharat"  => [I Love Bh, r, t] =>  [I, evoL, hsemU]
+// Split by char 'A' =>  "I Love Bharat"  => [I Love Bh, r, t] =>  [hB evoL I, r, t]
 
 package STRINGS;
 
