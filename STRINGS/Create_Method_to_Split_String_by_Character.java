@@ -1,3 +1,8 @@
+
+  
+// Split by char 'A' =>  "I Love Bharat"  => [I Love Bh, r, t] 
+
+
 package STRINGS;
 
 import java.util.Arrays;
