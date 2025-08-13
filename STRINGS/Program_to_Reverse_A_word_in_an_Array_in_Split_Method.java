@@ -10,7 +10,7 @@ public class Program_to_Reverse_A_word_in_an_Array_in_Split_Method {
 
 	public static void main(String[] args) {
 		
-		String s = " I Love Umesh  ";
+		String s = " I Love Bharat  ";
 		
 		System.out.println(Arrays.toString(split(s, ' ')));
 
